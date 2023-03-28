@@ -269,6 +269,7 @@ main {
   transition: var(--transition);
   text-align: center;
 }
+
 .review:hover {
   box-shadow: var(--shadow-3);
 }
@@ -301,7 +302,7 @@ main {
   place-items: center;
   border-radius: 50%;
   transform: translateY(25%);
-  background-color: var(--primary-500);
+  background: var(--primary-500);
   color: var(--white);
 }
 
@@ -315,9 +316,11 @@ main {
   top: -0.25rem;
   right: -0.5rem;
 }
+
 .author {
   margin-bottom: 0.5rem;
 }
+
 .job {
   text-transform: uppercase;
   color: var(--primary-500);
@@ -332,9 +335,11 @@ main {
   line-height: 1.5;
   color: var(--grey-600);
 }
+
 .btn-container {
   margin-bottom: 1rem;
 }
+
 .prev-btn,
 .next-btn {
   color: var(--primary-700);
@@ -345,6 +350,7 @@ main {
   transition: var(--transition);
   cursor: pointer;
 }
+
 .prev-btn:hover,
 .next-btn:hover {
   color: var(--primary-500);
